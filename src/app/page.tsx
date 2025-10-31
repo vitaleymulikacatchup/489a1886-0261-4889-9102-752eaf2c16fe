@@ -36,7 +36,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Professional Firearms & Services in Ukraine"
+          title="Dima idi na hyu"
           description="Zbroya provides premium firearms, expert gunsmith services, and professional consultation for hunters, sport shooters, and security professionals across Ukraine."
           tag="Licensed Dealer"
           tagIcon={Shield}
