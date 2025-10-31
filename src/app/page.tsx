@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -8,7 +8,7 @@ import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Certificate, Package, Phone, Shield, ShieldCheck, Star, Users, Wrench } from "lucide-react";
+import { Award, Verified, Package, Phone, Shield, ShieldCheck, Star, Users, Wrench } from "lucide-react";
 
 export default function Home() {
   return (
@@ -60,7 +60,7 @@ export default function Home() {
             {
               title: "Licensed & Certified",
               description: "Fully licensed firearms dealer with all required certifications and permits",
-              icon: Certificate
+              icon: Verified
             },
             {
               title: "Expert Gunsmith Services",
