@@ -116,7 +116,7 @@ export default function RootLayout({
           <AuroraBackground />
           <Tag />
           {children}
-        
+        <script async defer data-website-id="fc7fa613-1a17-4256-a655-2675d7ea70c9" src="https://analytics.webild.io/script.js"/>
         <script
           dangerouslySetInnerHTML={{
             __html: `
